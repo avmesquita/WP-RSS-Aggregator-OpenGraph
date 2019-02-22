@@ -32,44 +32,11 @@ get_header();
 					    <div class="row" style="">
 							 <?php
 							   $ip = $_SERVER['HTTP_CLIENT_IP']?$_SERVER['HTTP_CLIENT_IP']:($_SERVER['HTTP_X_FORWARDE??D_FOR']?$_SERVER['HTTP_X_FORWARDED_FOR']:$_SERVER['REMOTE_ADDR']);		
-
-							   //$ipData = "http://freegeoip.net/xml/" . $ip;
-							   //$xmlData = file_get_contents($ipData);
-							   //$xml = new SimpleXMLElement($xmlData);
-							   
-							   //$mapa = '<iframe width="300" height="170" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=' . $xml->Latitude . ',' . $xml->Longitude . '&hl=es;z=14&amp;output=embed"></iframe>';
 							   
 							 ?>
 								<p class="paragrafo">
 								   <b>Seu Endereço IP:</b> <?php echo $ip; ?>							   
 								</p>
-								<?php /*
-								<p class="paragrafo">
-								   <b>Hostname:</b> <?php echo gethostbyaddr($_SERVER['REMOTE_ADDR']); ?>
-								</p>								
-								<p class="paragrafo">
-								   <b>Seu Agente de Usu&aacute;rio:</b> <?php echo $_SERVER ['HTTP_USER_AGENT']; ?>
-								</p>		
-								<p class="paragrafo">
-								   <b>Refer&ecirc;ncia:</b> <?php echo $_SERVER ['HTTP_REFERER']; ?>
-								</p>
-								<p class="paragrafo">
-								   <b>País:</b> <?php echo $xml->CountryName; ?>
-								</p>
-								<p class="paragrafo">
-								   <b>Região:</b> <?php echo $xml->RegionName; ?>
-								</p>										
-								<p class="paragrafo">
-								   <b>Cidade:</b> <?php echo $xml->City; ?>
-								</p>
-								<p class="paragrafo">
-								   <b>Latitude:</b> <?php echo $xml->Latitude; ?>
-								</p>									
-								<p class="paragrafo">
-								   <b>Longitude:</b> <?php echo $xml->Longitude; ?>
-								</p>							
-								<?php echo $mapa; ?>
-								*/ ?>
 						</div>
 						<div class="row" style="text-align:center;">
 							<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>

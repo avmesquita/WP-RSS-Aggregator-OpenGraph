@@ -4,7 +4,7 @@
  *
  * @package WordPress
  */
-require_once('/sites/andremesquita/wp-content/themes/avm-andremesquita/opengraph/OpenGraph.php');
+require_once('/opengraph/OpenGraph.php');
   
 get_header(); 
 ?>         

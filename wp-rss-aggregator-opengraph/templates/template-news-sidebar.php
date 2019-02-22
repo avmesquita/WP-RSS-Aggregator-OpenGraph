@@ -37,7 +37,7 @@ get_header(); ?>
 	padding: 30px 0;		
 }
 .rss-aggregator{
-	columns:2;
+	columns:1;
 	padding-top:50px;
 }
 </style>   
