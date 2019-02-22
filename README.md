@@ -16,7 +16,7 @@
   We inject a javascript into all pages to read wp rss aggregator items, if have, loading new page itens, readings meta-data information "into" the link and load it into wp_rss_aggregator preview, showing better features to first impressions.
 
 # Thanks
-- [RebelCode](https://www.wprssaggregator.com) for [WP_RSS_Aggregator](https://wordpress.org/plugins/wp-rss-aggregator/) free version.
+- [RebelCode](https://www.wprssaggregator.com) for [WP_RSS_Aggregator](https://wordpress.org/plugins/wp-rss-aggregator/) free version plugin.
 - [Noor](https://noorsplugin.com/wordpress-colorbox-plugin/) for [WP Colorbox](https://br.wordpress.org/plugins/wp-colorbox/) plugin.
 - [Scottmac](https://github.com/scottmac) for PHP implementation of [OpenGraph](http://ogp.me) library at [GitHub Repository](https://github.com/scottmac/opengraph/).
 
