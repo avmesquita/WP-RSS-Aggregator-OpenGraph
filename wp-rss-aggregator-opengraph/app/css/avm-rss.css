@@ -1,0 +1,32 @@
+ul.rss-aggregator{
+   list-style-type: none;
+	 columns:2;
+}
+.thumbnail-excerpt {
+    overflow: visible !important;
+}
+li.feed-item{
+  overflow: auto !important;
+}
+.thumbnail-excerpt img{
+    float: none !important;
+}
+.thumbnail-excerpt img{
+    float: none !important;
+} 
+.thumbnail-excerpt {
+    text-align: center;
+}
+li.feed-item {
+	border-bottom: 1px dashed #7c9b30;
+	padding: 20px 0;
+}
+.feed-item {
+	max-width:250px
+}
+.wprss-feed-meta {
+	padding-top:20px;
+}
+.wprss-time-ago{
+	padding-top:20px;
+}

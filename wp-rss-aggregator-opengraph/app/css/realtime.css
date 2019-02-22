@@ -1,0 +1,414 @@
+@font-face {
+  font-family: 'Trade Gothic LT Std Bold Condensed';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Trade Gothic LT Std Bold Condensed No. 20'), url('/wp-content/themes/Kenner2013/landing-pages/hotsite-kivah/font/trade-gothic-lt-std-bold-condensed-no-20-5872def1d27d8.woff') format('woff');
+}
+@font-face {
+	font-family: 'Trade Gothic LT Std';
+	src: url('/wp-content/themes/Kenner2013/landing-pages/hotsite-kivah/font/TradeGothicLTStd.otf'),local('TradeGothicLTStd') format ('opentype');		
+}
+@font-face {
+	font-family: 'Trade Gothic LT Std Bd2';
+	src: url('/wp-content/themes/Kenner2013/landing-pages/hotsite-kivah/font/TradeGothicLTStd-Bd2.otf'),local('TradeGothicLTStd-Bd2') format ('opentype');		
+}
+@font-face {
+	font-family: 'Trade Gothic LT Std Bd2Obl';
+	src: url('/wp-content/themes/Kenner2013/landing-pages/hotsite-kivah/font/TradeGothicLTStd-Bd2Obl.otf'),local('TradeGothicLTStd-Bd2Obl') format ('opentype');	
+}
+@font-face {
+	font-family: 'Trade Gothic LT Std Bd2Cn20';
+	src: url('/wp-content/themes/Kenner2013/landing-pages/hotsite-kivah/font/TradeGothicLTStd-Bd2Cn20.otf'),local('TradeGothicLTStd-Bd2Cn20') format ('opentype');
+}
+@font-face {
+	font-family: 'Trade Gothic LT Std Bd2Cn20Obl';
+	src: url('/wp-content/themes/Kenner2013/landing-pages/hotsite-kivah/font/TradeGothicLTStd-Bd2Cn20Obl.otf'),local('TradeGothicLTStd-Bd2Cn20Obl') format ('opentype');	
+}
+@font-face {
+	font-family: 'Trade Gothic LT Std Bold';
+	src: url('/wp-content/themes/Kenner2013/landing-pages/hotsite-kivah/font/TradeGothicLTStd-Bold.otf'),local('TradeGothicBoldLTStd-Bold') format ('opentype');
+}
+@font-face {
+	font-family: 'Trade Gothic LT Std BoldExt';
+	src: url('/wp-content/themes/Kenner2013/landing-pages/hotsite-kivah/font/TradeGothicLTStd-BoldExt.otf'),local('TradeGothicLTStd-BoldExt') format ('opentype');
+}
+@font-face {
+	font-family: 'Trade Gothic LT Std BoldObl';
+	src: url('/wp-content/themes/Kenner2013/landing-pages/hotsite-kivah/font/TradeGothicLTStd-BoldObl.otf'),local('TradeGothicBoldLTStd-BoldObl') format ('opentype');	
+}
+@font-face {
+	font-family: 'Trade Gothic LT Std Cn18';
+	src: url('/wp-content/themes/Kenner2013/landing-pages/hotsite-kivah/font/TradeGothicLTStd-Cn18.otf'),local('TradeGothicLTStd-Cn18') format ('opentype');	
+}
+@font-face {
+	font-family: 'Trade Gothic LT Std Cn18Obl';
+	src: url('/wp-content/themes/Kenner2013/landing-pages/hotsite-kivah/font/TradeGothicLTStd-Cn18Obl.otf'),local('TradeGothicLTStd-Cn18Obl') format ('opentype');	
+}
+@font-face {
+	font-family: 'Trade Gothic LT Std Extended';
+	src: url('/wp-content/themes/Kenner2013/landing-pages/hotsite-kivah/font/TradeGothicLTStd-Extended.otf'),local('TradeGothicLTStd-Extended') format ('opentype');	
+}
+@font-face {
+	font-family: 'Trade Gothic LT Std Light';
+	src: url('/wp-content/themes/Kenner2013/landing-pages/hotsite-kivah/font/TradeGothicLTStd-Light.otf'),local('TradeGothicLTStd-Light') format ('opentype');
+}
+@font-face {
+	font-family: 'Trade Gothic LT Std LightObl';
+	src: url('/wp-content/themes/Kenner2013/landing-pages/hotsite-kivah/font/TradeGothicLTStd-LightObl.otf'),local('TradeGothicLTStd-LightObl') format ('opentype');	
+}
+@font-face {
+	font-family: 'Trade Gothic LT Std Obl';
+	src: url('/wp-content/themes/Kenner2013/landing-pages/hotsite-kivah/font/TradeGothicLTStd-Obl.otf'),local('TradeGothicLTStd-Obl') format ('opentype');	
+}
+#bg { 
+  background-color: #212121!important;
+  top: -100px;      
+}
+@media (min-width: 1200px) {
+
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+}
+@media (min-width: 992px) {
+		
+}
+/*===========================================*/
+/*	MOBILE & TABLET COMMON
+/*===========================================*/
+@media (min-width: 200px) and (max-width: 991px) {
+	
+}
+/*===========================================*/
+/*	TABLET
+/*===========================================*/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+/*===========================================*/
+/*	MOBILE
+/*===========================================*/
+@media (min-width: 200px) and (max-width: 767px) {
+.content {background-size:contain!important;}
+}
+@media (min-width: 600px) and (max-width: 767px) {
+.content {background-size:contain!important;}
+}
+@media (min-width: 480px) and (max-width: 599px) {
+.content {background-size:contain!important;}
+}
+@media (min-width: 200px) and (max-width: 479px) {
+.content {background-size:contain!important;}
+}
+.totop {
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	z-index: 104400;
+}
+.totop a i{
+	display: block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 25px;
+	background: rgba(60,60,60,0.7);
+}
+.totop a:hover i { background: rgba(60,60,60,1); }
+.totop a, .totop a:visited{
+	color: #10181a;
+}
+.totop a:hover {
+	color: #10181a;
+	text-decoration: none;
+}
+.content {
+	padding: 0;	
+	/*
+	background-image:url(../img/hotsite-kivah-bg-2.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+    background-position-x: 50%;
+	background-position-y: -630px;
+	*/
+}
+@media (max-width: 1400px) {
+.content {background-position-y:0px!important;}
+}
+
+.content ul{
+list-style-type: none !important;
+padding: 0px;
+margin: 0px;
+}
+.content ul li{
+	background-repeat: no-repeat;
+	background-position: 2px 7px; 
+	background-size:13px 13px;
+	padding:4px 0px;
+}
+.content ul li i {
+	display: inline-block !important;
+	margin-right: 4px;
+	font-size: 15px;
+}
+#menuMain .nav-main .dropdown .dropdown-menu:before {
+    content: "";
+    background: #464646;
+    display: block;
+    position: absolute;
+    width: 20000px;
+    height: 76px;
+    margin-left: -1000px;
+    z-index: -1;
+    top: 0;
+    left: 50%;
+}
+#menuMain .nav-main .dropdown .dropdown-menu a {
+	font-size: 18px;
+	font-weight: bolder;
+	padding: 20px 20px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: .03em;	
+}
+#menuMain .nav-main .dropdown .dropdown-menu a:hover {
+	background-color: none;
+	color: #262626;	
+}
+
+#menuMain .nav-main .dropdown.open>a, #menuMain .nav-main .dropdown.open>a:focus, #menuMain .nav-main .dropdown.open>a:hover {
+    background: #464646;
+	color: #fff;	
+}
+/*
+.window{
+    display:none;
+    width:500px;
+    height:600px;
+    position:absolute;
+    left:0;
+    top:0;
+    background:#FFF;
+    z-index:9900;
+    padding:10px;
+    border-radius:10px;
+}
+#mascara{
+    display:none;
+    position:absolute;
+    left:0;
+    top:0;
+    z-index:9000;
+    background-color:#FFF;
+}
+#searchBox{
+   // display:none!important;
+}
+
+@media screen and (orientation : portrait) {
+	
+  #searchBox{
+    margin-top:-78px!important;
+  }
+  .caixa-busca {
+	  width:80px!important;	    	  	  
+  }
+	
+} 
+.fechar{display:block; text-align:right;}
+*/
+.dominado:hover .foto-linha {
+  opacity: 1;
+  -webkit-filter: blur(0px)!important;
+  -moz-filter: blur(0px)!important;
+  -o-filter: blur(0px)!important;
+  -ms-filter: blur(0px)!important;
+  filter: blur(0px)!important;    
+}
+.line-in-middle {
+    width:300px;
+    height:250px;
+	background: linear-gradient(to right, 
+	                            transparent 0%, 
+	                            transparent calc(50% - 0.81px), 
+	                            yellow calc(50% - 0.8px), 
+	                            yellow calc(50% + 0.8px), 
+	                            transparent calc(50% + 0.81px), 
+	                            transparent 100%); 
+}
+.kivah-topo {
+	 margin-top:-1px;	
+}
+.kivah-influenciadores {
+	border-style:solid;border-color:yellow;border-width:1px;border-collapse:separate;border-spacing:5px;padding:5px;cursor: pointer;
+}
+.kivah-apresentacao {
+	font-size:22px;font-weight:bolder;line-height:1.5;color:white;padding-left:100px;padding-right:100px;
+}
+.kivah-apresentacao-destaque {
+	color:yellow;font-style:italic;font-size:25px;font-weight:bolder;
+}
+.litero-linha-amarela {
+  width:40%;border-color:yellow;border-width:1px;		
+}
+.kivah-titulo-domine {
+	font-size:35.42px;font-weight:bolder;line-height:1.5;color:yellow;font-style:italic;padding-left:100px;padding-right:100px;text-align:center;
+}
+.kivah-titulo-box {
+	text-align:center;color:yellow;font-size:26px;font-weight:bolder;font-style:italic;line-height:2;	
+}
+.kivah-texto-box {
+	color:white;text-align:center;font-size:17px;
+}
+.kivah-box-influenciadores {
+    border-style:solid;border-color:yellow;border-width:1px;border-collapse:separate;border-spacing:5px;padding:30px;color:white;top:10px;background-color:#1B1B1B;display:none;justify-content:center;align-items:center;left:calc(100% - 97%);width:1100px!important;	
+}
+.kivah-foto-destaque {
+	margin-left:13px;
+	margin-top:22px;
+}
+.kivah-video-produto {
+	border-style:solid;border-color:yellow;border-width:1px;border-collapse:separate;border-spacing:5px;padding:5px;overflow:hidden;width:1100px!important;
+}
+@media only screen and (min-width: 480px) { 
+  .kivah-box-influenciadores {
+	  border-style:solid;border-color:yellow;border-width:1px;border-collapse:separate;border-spacing:5px;padding:30px;color:white;top:10px;background-color:#1B1B1B;display:none;justify-content:center;align-items:center;left:calc(100% - 97%);width:94%!important;		  
+  }
+  .kivah-video-produto {
+	  border-style:solid;border-color:yellow;border-width:1px;border-collapse:separate;border-spacing:5px;padding:5px;overflow:hidden;width:94%!important;
+  }    
+}
+.kivah-tag-em-breve {	
+	position:absolute;margin-top:-250px;margin-left:-3px;z-index:10000;cursor:pointer;
+}
+.kivah-foto-linha {
+    width:159px;height:207px;border-style:solid;border-color:yellow;border-width:1px;border-collapse:separate;border-spacing:5px;padding:5px;-webkit-filter: blur(1px);-moz-filter: blur(1px);-o-filter: blur(1px);-ms-filter: blur(1px);filter: blur(1px);z-index:3;		
+}
+.kivah-box-nome {
+    border-style:solid;border-color:yellow;border-width:1px;border-collapse:separate;border-spacing:5px;padding:5px;		
+}
+.kivah-box-nome-titulo {
+    color:yellow;font-weight:bolder;font-style:italic;font-size:18.8;		
+}
+.kivah-box-nome-subtitulo {
+    color:white;font-size:14.56px;font-family:Trade Gothic LT Std Bold Condensed,sans-serif;		
+}
+.kivah-btn-play {
+	position: absolute;
+	margin-top: 230px;
+	margin-left: -50px;
+	cursor: pointer;
+}
+.kivah-trailing {
+	height:100px;
+}
+.triangle-mineirinho {
+    width: 0; 
+    height: 0; 
+    border-left: 10px outset transparent;
+    border-bottom: 15px solid yellow;
+    border-right: 10px outset transparent;
+    position:absolute;
+	margin-top: -45px;
+	margin-left: 517px;
+}
+.triangle-mineirinho:after{
+    content:'';
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 10px solid transparent;  
+    position:absolute;
+    top:-21px;
+    left:1px;
+}
+.triangle-don-cesao {
+    width: 0; 
+    height: 0; 
+    border-left: 10px outset transparent;
+    border-bottom: 15px solid yellow;
+    border-right: 10px outset transparent;
+    position:absolute;
+	margin-top: -45px;
+	margin-left: 140px;
+}
+.triangle-don-cesao:after{
+    content:'';
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 10px solid transparent;  
+    position:absolute;
+    top:-21px;
+    left:1px;
+}
+.triangle-bril-martins {
+    width: 0; 
+    height: 0; 
+    border-left: 10px outset transparent;
+    border-bottom: 15px solid yellow;
+    border-right: 10px outset transparent;
+    position:absolute;
+	margin-top: -45px;
+	margin-left: 900px;
+}
+.triangle-bril-martins:after{
+    content:'';
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 10px solid transparent;  
+    position:absolute;
+    top:-21px;
+    left:1px;
+}
+.triangle-ademar {
+    width: 0; 
+    height: 0; 
+    border-left: 10px outset transparent;
+    border-bottom: 15px solid yellow;
+    border-right: 10px outset transparent;
+    position:absolute;
+	margin-top: -45px;
+	margin-left: 340px;
+}
+.triangle-ademar:after{
+    content:'';
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 10px solid transparent;  
+    position:absolute;
+    top:-21px;
+    left:1px;
+}
+.triangle-felipe-cesarano {
+    width: 0; 
+    height: 0; 
+    border-left: 10px outset transparent;
+    border-bottom: 15px solid yellow;
+    border-right: 10px outset transparent;
+    position:absolute;
+	margin-top: -45px;
+	margin-left: 717px;
+}
+.triangle-felipe-cesarano:after{
+    content:'';
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 10px solid transparent;  
+    position:absolute;
+    top:-21px;
+    left:1px;
+}
+
+

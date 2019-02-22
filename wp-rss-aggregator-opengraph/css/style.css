@@ -1,0 +1,30 @@
+.wprss-avm-img{
+	max-width:90%;
+	margin-left:20px;	
+}
+.wprss-avm-text{
+	text-align:justify;
+	padding-top:15px;
+}
+.wprss-avm-leiamais{
+	
+}
+.wprss-feed-meta{
+	padding-top:20px;
+	text-align:center;
+}
+.wprss-time-ago{
+	padding-top:10px;
+	text-align:center;
+}
+.feed-item{
+	padding-top:50px;
+	list-style-type: none;
+	border-bottom: 1px dashed #7c9b30;
+	padding: 30px 0;	
+	
+}
+.rss-aggregator{
+	columns:1;
+	padding-top:50px;
+}

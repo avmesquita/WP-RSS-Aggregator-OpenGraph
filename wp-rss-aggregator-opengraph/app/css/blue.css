@@ -1,0 +1,222 @@
+/* Green Color CSS */
+
+.color{
+color:#30add1;
+}
+
+a, a:visited{
+color:#30add1;
+}
+
+a:hover{
+color:#29a1c4;
+}
+
+.navbarblue{
+	padding: 20px 0;
+	background: #282f39 !important;
+}
+
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+   border-color: #3ba4c2;
+}
+
+.navbarblue button{
+	background:#29a1c4 !important;  
+}
+
+.navbarblue button:hover{
+	background:#29a1c4 !important;
+}
+
+.navbarblue .nav > li > a{
+border-left:1px solid #e86700;
+}
+
+.navbarblue .nav > li:first-child > a{
+border-left:0px;
+}
+
+.navbarblue .nav > li > a:hover {
+    background: transparent;
+    color: #d6d6d6!important;
+}
+
+.navbarblue .nav .active > a,
+.navbarblue .nav .active > a:hover,
+.navbarblue .nav .active > a:focus {
+background: #29a1c4 !important;
+}
+
+.dropdown-toggle{
+
+}
+
+
+.dropdown-menu{
+background:#30add1 !important;
+border:1px solid #29a1c4;
+}
+
+.dropdown-menu a{
+background:#30add1 !important;
+border-bottom:1px solid #29a1c4;
+}
+
+.dropdown-menu a:hover,.dropdown-menu a:focus{
+background:#29a1c4 !important;
+}
+
+.social i{
+background:#30add1;
+}
+
+.social i:hover{
+background:#29a1c4;
+}
+
+.flex-caption{
+border-left:4px solid #30add1;
+}
+
+.service i{
+color:#30add1;
+}
+
+/* Timeline */
+
+.time .tidate{
+background:#30add1;
+}
+
+.time .timatter{
+border-bottom:2px solid #30add1;
+}
+
+/* Events - Accordion*/
+
+.events .panel-heading h5{
+background:#30add1;
+}
+
+/* Slider */
+
+.da-slider{
+border-top: 4px solid #30add1;
+border-bottom: 4px solid #30add1;
+}
+
+.da-slide h2{
+color:#30add1;
+}
+
+.da-slide .da-link{
+background:#30add1;
+}
+
+/* Testimonial */
+
+.test{
+border-bottom:2px solid #30add1;
+}
+
+.test-arrow{
+border-top-color: #30add1;
+}
+
+/* Feature alt */
+
+.afeature:hover{
+border:5px solid #30add1;
+}
+
+.afmatter i{
+color:#30add1;
+}
+
+.rpost1:hover,.rpost2:hover{
+border-bottom:2px solid #30add1;
+}
+
+.panel-heading i{
+color:#30add1;
+}
+
+.process i{
+color:#30add1;
+}
+
+.process-meta span{
+background:#30add1;
+}
+
+.feat h4 i{
+color:#30add1;
+}
+
+.blog .meta i{
+color:#30add1;
+}
+
+.posts .tags a{
+background:#30add1;
+border:1px solid #29a1c4;
+border-bottom:3px solid #29a1c4;
+}
+
+.posts .tags a:hover{
+border-bottom:3px solid #30add1;
+background:#29a1c4;
+border:1px solid #29a1c4;
+}
+
+.paging a:hover{
+background: #30add1;
+border:1px solid #29a1c4;
+}
+
+.paging .current{
+background: #30add1;
+border:1px solid #29a1c4;
+}
+
+.serv .simg i{
+color:#30add1;
+}
+
+.button a, .button a:visited{
+background:#30add1;
+border-bottom:2px solid #29a1c4;
+}
+
+.button a:hover{
+background:#29a1c4;
+}
+
+.pricel .phead-top{
+background:#30add1;
+border:1px solid #29a1c4;
+}
+
+.pricel .phead-bottom{
+border-top:1px solid #29a1c4;
+}
+
+.nav-tabs > li > a:hover{
+background:#30add1;
+}
+
+.about .asocial i{
+background:#30add1;
+}
+
+.resume h4{
+background:#30add1;
+}
+
+.resume h5{
+color:#30add1;
+}
+
+.content ul li i { color:#30add1;}
+footer ul li i { color:#30add1;}
