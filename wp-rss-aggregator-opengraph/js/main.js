@@ -1,10 +1,9 @@
 var ajaxurl = '/wp-admin/admin-ajax.php';	
 window.onload = function() {				
-    var list = document.getElementsByClassName("rss-aggregator")[0];        
-    Array.prototype.forEach.call(list.childNodes, function(el) {			   		
-       var texto = el.innerHTML; 
-       var urlNews = el.childNodes[0].href; 
-       var img = urlNews;
+    var list = document.getElementsByClassName('wp-rss-aggregator')[0].getElementsByTagName("li");        
+    Array.prototype.forEach.call(list, function(el) {			   		
+       var texto = el.children[0].innerText; 
+       var urlNews = el.children[0].getElementsByTagName('a')[0].href; 
        jQuery.ajax({url: ajaxurl, 
                     type: 'POST', 
                     data: { 'action': 'obterNewsOpenGraph', 'URL': urlNews }, 
